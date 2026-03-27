@@ -1,15 +1,15 @@
 /build
 
-# Archivos de build (se generan automáticamente, no tienen que estar en el repo)
+# Archivos de build
 .gradle/
 build/
 */build/
 
-# Archivos locales de Android Studio (configuración de tu máquina, no del proyecto)
+# Archivos locales
 *.iml
 .idea/
 local.properties
 
-# Archivos de sistema operativo
+# Archivos de SO
 .DS_Store
 Thumbs.db

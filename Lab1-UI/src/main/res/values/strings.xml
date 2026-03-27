@@ -1,3 +1,39 @@
 <resources>
     <string name="app_name">Labs20261-Gr07</string>
+
+    <!-- ── Títulos de pantallas ── -->
+    <string name="title_personal_data">Información Personal</string>
+    <string name="title_contact_data">Información de Contacto</string>
+
+    <!-- ── PersonalDataActivity ── -->
+    <string name="hint_nombres">Nombres</string>
+    <string name="hint_apellidos">Apellidos</string>
+    <string name="label_sexo">Sexo:</string>
+    <string name="radio_hombre">Hombre</string>
+    <string name="radio_mujer">Mujer</string>
+    <string name="label_fecha_nacimiento">Fecha de Nacimiento</string>
+    <string name="btn_cambiar_fecha">Cambiar</string>
+    <string name="label_escolaridad">Grado de escolaridad</string>
+    <string name="btn_siguiente">Siguiente</string>
+    <string name="fecha_no_seleccionada">No seleccionada</string>
+
+    <!-- Opciones del Spinner de escolaridad -->
+    <string-array name="escolaridad_array">
+        <item>Seleccionar…</item>
+        <item>Primaria</item>
+        <item>Secundaria</item>
+        <item>Universitaria</item>
+        <item>Otro</item>
+    </string-array>
+
+    <!-- ── ContactDataActivity ─── -->
+    <string name="hint_telefono">Teléfono</string>
+    <string name="hint_direccion">Dirección</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_pais">País</string>
+    <string name="hint_ciudad">Ciudad</string>
+
+    <!-- ── Validaciones ─── -->
+    <string name="error_campo_obligatorio">Este campo es obligatorio</string>
+    <string name="error_email_invalido">Ingresa un email válido</string>
 </resources>

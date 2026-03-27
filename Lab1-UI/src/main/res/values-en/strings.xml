@@ -1,0 +1,40 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">Labs20261-Gr07</string>
+
+    <!-- ── Screen titles ─────────────────────────────────────── -->
+    <string name="title_personal_data">Personal Information</string>
+    <string name="title_contact_data">Contact Information</string>
+
+    <!-- ── PersonalDataActivity ──────────────────────────────── -->
+    <string name="hint_nombres">First Name</string>
+    <string name="hint_apellidos">Last Name</string>
+    <string name="label_sexo">Gender:</string>
+    <string name="radio_hombre">Male</string>
+    <string name="radio_mujer">Female</string>
+    <string name="label_fecha_nacimiento">Date of Birth</string>
+    <string name="btn_cambiar_fecha">Change</string>
+    <string name="label_escolaridad">Education level</string>
+    <string name="btn_siguiente">Next</string>
+    <string name="fecha_no_seleccionada">Not selected</string>
+
+    <!-- Education level options -->
+    <string-array name="escolaridad_array">
+        <item>Select…</item>
+        <item>Primary</item>
+        <item>Secondary</item>
+        <item>University</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- ── ContactDataActivity ───────────────────────────────── -->
+    <string name="hint_telefono">Phone</string>
+    <string name="hint_direccion">Address</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_pais">Country</string>
+    <string name="hint_ciudad">City</string>
+
+    <!-- ── Validations ───────────────────────────────────────── -->
+    <string name="error_campo_obligatorio">This field is required</string>
+    <string name="error_email_invalido">Enter a valid email</string>
+</resources>
