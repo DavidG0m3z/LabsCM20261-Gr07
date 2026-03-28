@@ -22,6 +22,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- Pantalla 1 -->
+        <activity
+            android:name=".PersonalDataActivity"
+            android:exported="false" />
+
+        <!-- Pantalla 2 -->
+        <activity
+            android:name=".ContactDataActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
